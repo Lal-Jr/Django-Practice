@@ -4,10 +4,12 @@
     <head>
         <meta charser="utf-8">
         <title>Django Level Two</title>
-        <link rel = "stylesheet" href = "{% static 'css/mystyle.css' %}"
+        <link rel = "stylesheet" href = "{% static "css/mystyle.css" %}"
     </head>
     <body>
-        <h1>INDEX.HTML</h1>
-        {{ insert_me }}
+        <h1>Hi Welcome to Django level two!</h1>
+        <h2>Here are your access records:</h2>
+        <div class="django2">
+            {% if access_records %}
     </body>
 </html>
